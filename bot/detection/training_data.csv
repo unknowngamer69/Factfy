@@ -1,0 +1,1094 @@
+text,label
+"The Eiffel Tower was built in 1887",claim
+"The population of Tokyo is over 13 million",claim
+"The Earth orbits the Sun in approximately 365.25 days",claim
+"Water boils at 100 degrees Celsius at sea level",claim
+"Python was created by Guido van Rossum in 1991",claim
+"The Great Wall of China is visible from space",claim
+"Jupiter is the largest planet in our solar system",claim
+"Light travels at approximately 299,792 kilometers per second",claim
+"World War II ended in 1945",claim
+"The Amazon Rainforest produces 20 percent of the worlds oxygen",claim
+"The Eiffel Tower was originally intended to be temporary",claim
+"Alexander Graham Bell invented the telephone in 1876",claim
+"Mount Everest is the tallest mountain on Earth at 8,849 meters",claim
+"The human body has 206 bones",claim
+"Bananas are berries but strawberries are not",claim
+"Octopuses have three hearts",claim
+"The speed of light is faster than the speed of sound",claim
+"Gold is heavier than iron",claim
+"Antarctica is the driest continent on Earth",claim
+"Mercury is the closest planet to the Sun",claim
+"I think this movie is pretty good",not_claim
+"I love eating pizza on Fridays",not_claim
+"Can someone help me with this?",not_claim
+"That was hilarious lol",not_claim
+"I feel like taking a nap today",not_claim
+"Hey everyone whats up",not_claim
+"Nice try buddy",not_claim
+"I really need to buy groceries",not_claim
+"What do you think about this idea?",not_claim
+"Good morning everyone",not_claim
+"I disagree with your opinion",not_claim
+"This song is so catchy",not_claim
+"I had a great time at the party last night",not_claim
+"You should definitely watch that show",not_claim
+"I am so tired today",not_claim
+"Thanks for sharing that",not_claim
+"Can we reschedule the meeting?",not_claim
+"I just finished my homework",not_claim
+"Honestly I think pineapple on pizza is fine",not_claim
+"Wow thats amazing",not_claim
+"The Eiffel Tower is located in Paris France",claim
+"Elon Musk owns Tesla and SpaceX",claim
+"China has the largest population in the world",claim
+"The Moon is approximately 384,400 kilometers from Earth",claim
+"Niagara Falls is on the border between the US and Canada",claim
+"Shakespeare wrote Hamlet",claim
+"Albert Einstein developed the theory of relativity",claim
+"India won the Cricket World Cup in 2011",claim
+"The Statue of Liberty was a gift from France to the United States",claim
+"Leonardo da Vinci painted the Mona Lisa",claim
+"Japan has the longest life expectancy in the world",claim
+"The Nile is the longest river in Africa",claim
+"Kangaroos are native to Australia",claim
+"The Rosetta Stone was discovered in 1799",claim
+"Venus is the hottest planet in our solar system",claim
+"Australia has more kangaroos than people",claim
+"The first computer was invented in the 1940s",claim
+"There are 7 continents on Earth",claim
+"Honey never spoils",claim
+"Oxford University is older than the Aztec Empire",claim
+"Im going to the store",not_claim
+"I cant believe that happened",not_claim
+"Let me know when you are free",not_claim
+"You are so talented",not_claim
+"I wish I could fly",not_claim
+"Do you want to grab lunch?",not_claim
+"That concert was incredible",not_claim
+"I need a vacation so badly",not_claim
+"You should try this restaurant",not_claim
+"OMG did you see that",not_claim
+"Its a beautiful day outside",not_claim
+"Could you send me that file?",not_claim
+"I cant wait for the weekend",not_claim
+"Stop being so dramatic",not_claim
+"I think we should go with option B",not_claim
+"That joke was really funny",not_claim
+"I am really excited about this",not_claim
+"Can we talk about this later?",not_claim
+"I just got a new puppy",not_claim
+"Thats a great question",not_claim
+"The capital of Italy is Rome",claim
+"Water freezes at 0 degrees Celsius",claim
+"The Atlantic Ocean is smaller than the Pacific Ocean",claim
+"Spiders have eight legs",claim
+"Mars is known as the Red Planet",claim
+"George Washington was the first US President",claim
+"The chemical symbol for water is H2O",claim
+"Mount Kilimanjaro is located in Tanzania",claim
+"Bees are responsible for pollinating flowers",claim
+"A standard piano has 88 keys",claim
+"Canada is the second largest country in the world",claim
+"A triangle has three sides",claim
+"Julius Caesar was assassinated in 44 BC",claim
+"Saturn is surrounded by a system of rings",claim
+"The currency of the United Kingdom is the Pound Sterling",claim
+"Penguins are birds that cannot fly",claim
+"The human skeleton is made of bones",claim
+"Iron rusts when exposed to oxygen and moisture",claim
+"William Shakespeare was born in Stratford-upon-Avon",claim
+"An octagon has eight sides",claim
+"The Sahara Desert is the largest hot desert",claim
+"Cows are herbivores",claim
+"The speed of sound in air is about 343 meters per second",claim
+"Berlin is the capital city of Germany",claim
+"Mammals are warm-blooded animals",claim
+"A decagon has ten sides",claim
+"The printing press was invented by Johannes Gutenberg",claim
+"Jupiter has a Great Red Spot",claim
+"Photosynthesis is how plants make their food",claim
+"Oxygen is a gas at room temperature",claim
+"The Great Pyramid of Giza is in Egypt",claim
+"Sharks are a type of fish",claim
+"Diamond is the hardest natural substance on Earth",claim
+"The sun rises in the east",claim
+"The Titanic sank in 1912",claim
+"Friction is a force that opposes motion",claim
+"Madrid is the capital of Spain",claim
+"Elephants are the largest land animals",claim
+"Light takes about 8 minutes to reach Earth from the Sun",claim
+"The Pacific Ocean is the deepest ocean",claim
+"A year has 365 days normally",claim
+"Abraham Lincoln was the 16th US President",claim
+"Cheetahs are the fastest land animals",claim
+"Gravity keeps the planets in orbit around the Sun",claim
+"The United Nations was founded in 1945",claim
+"Whales are marine mammals",claim
+"There are 60 minutes in an hour",claim
+"Marie Curie won two Nobel Prizes",claim
+"The freezing point of water is 32 degrees Fahrenheit",claim
+"The Statue of Liberty is in New York",claim
+"Amphibians can live both in water and on land",claim
+"Sound cannot travel through a vacuum",claim
+"The capital of Australia is Canberra",claim
+"Reptiles are cold-blooded",claim
+"A hexagon has six sides",claim
+"Thomas Edison invented the practical incandescent light bulb",claim
+"The Earth has one natural satellite",claim
+"Plant cells have a cell wall",claim
+"Helium is lighter than air",claim
+"The Colosseum is an ancient amphitheater in Rome",claim
+"Snakes shed their skin",claim
+"The boiling point of water is 212 degrees Fahrenheit",claim
+"The sun sets in the west",claim
+"The Berlin Wall fell in 1989",claim
+"Kinetic energy is the energy of motion",claim
+"Moscow is the capital of Russia",claim
+"Ostriches lay the largest eggs of any living bird",claim
+"A lunar eclipse happens when Earth blocks the suns light",claim
+"The Indian Ocean is the third largest ocean",claim
+"A leap year has 366 days",claim
+"Nelson Mandela was President of South Africa",claim
+"Bats are the only mammals capable of sustained flight",claim
+"Magnets have a north and a south pole",claim
+"The European Union uses the Euro as its currency",claim
+"Dolphins use echolocation to navigate",claim
+"There are 24 hours in a day",claim
+"Charles Darwin proposed the theory of evolution",claim
+"The melting point of ice is 0 degrees Celsius",claim
+"The Golden Gate Bridge is in San Francisco",claim
+"Insects have six legs",claim
+"Electricity can flow through conductive materials",claim
+"The capital of Brazil is Brasilia",claim
+"Birds have feathers and lay eggs",claim
+"A pentagon has five sides",claim
+"Martin Luther King Jr delivered the I Have a Dream speech",claim
+"Uranus is an ice giant planet",claim
+"Animal cells do not have a cell wall",claim
+"Carbon dioxide is a greenhouse gas",claim
+"The Taj Mahal is located in India",claim
+"Frogs start their lives as tadpoles",claim
+"The freezing point and melting point of water are the same",claim
+"The Earth rotates on its axis once a day",claim
+"The Apollo 11 mission landed on the Moon in 1969",claim
+"Potential energy is stored energy",claim
+"Beijing is the capital of China",claim
+"Blue whales are the largest animals ever known to have lived",claim
+"A solar eclipse happens when the Moon blocks the sun",claim
+"The Arctic Ocean is the smallest ocean",claim
+"A decade consists of 10 years",claim
+"Winston Churchill was Prime Minister of the UK",claim
+"Crocodiles are large aquatic reptiles",claim
+"Opposite magnetic poles attract each other",claim
+"The World Health Organization is an agency of the UN",claim
+"Gorillas are highly intelligent primates",claim
+"There are 7 days in a week",claim
+"Isaac Newton formulated the laws of motion",claim
+"Water is a liquid at room temperature",claim
+"Mount Rushmore features the faces of four US Presidents",claim
+"Ants live in colonies",claim
+"Insulators resist the flow of electricity",claim
+"The capital of Argentina is Buenos Aires",claim
+"Fish breathe through gills",claim
+"A rectangle has four right angles",claim
+"Mahatma Gandhi led Indias non-violent independence movement",claim
+"Neptune is the farthest known planet from the Sun in our solar system",claim
+"DNA carries genetic information",claim
+"Nitrogen makes up most of the Earths atmosphere",claim
+"The Great Sphinx of Giza has the head of a human and body of a lion",claim
+"Butterflies go through metamorphosis",claim
+"Density is mass divided by volume",claim
+"The equator divides the Earth into Northern and Southern Hemispheres",claim
+"The Soviet Union dissolved in 1991",claim
+"Velocity is speed in a given direction",claim
+"Seoul is the capital of South Korea",claim
+"Giraffes are the tallest living terrestrial animals",claim
+"Earthquakes are measured using the Richter scale",claim
+"The Southern Ocean surrounds Antarctica",claim
+"A century consists of 100 years",claim
+"Cleopatra was the last active ruler of the Ptolemaic Kingdom of Egypt",claim
+"Turtles have hard shells that protect them",claim
+"Like magnetic poles repel each other",claim
+"NATO stands for North Atlantic Treaty Organization",claim
+"Chimpanzees share a high percentage of their DNA with humans",claim
+"There are 12 months in a year",claim
+"Galileo Galilei improved the telescope",claim
+"Ice is less dense than liquid water",claim
+"The Panama Canal connects the Atlantic and Pacific Oceans",claim
+"Spiders spin webs to catch their prey",claim
+"Copper is an excellent conductor of electricity",claim
+"The capital of Egypt is Cairo",claim
+"Salmon are known to migrate from the ocean to fresh water to spawn",claim
+"A square has four equal sides",claim
+"Joan of Arc is a heroine of France",claim
+"Pluto is classified as a dwarf planet",claim
+"RNA plays a role in coding and decoding genes",claim
+"Ozone in the stratosphere protects Earth from UV radiation",claim
+"Stonehenge is a prehistoric monument in England",claim
+"Mosquitoes are vectors for several diseases",claim
+"Acceleration is the rate of change of velocity",claim
+"The Prime Meridian passes through Greenwich England",claim
+"The Magna Carta was signed in 1215",claim
+"Force equals mass times acceleration",claim
+"Bangkok is the capital of Thailand",claim
+"Camels store fat in their humps",claim
+"Volcanoes erupt with magma from below the Earths crust",claim
+"The Gulf of Mexico is an ocean basin",claim
+"A millennium consists of 1000 years",claim
+"Genghis Khan founded the Mongol Empire",claim
+"Snails move very slowly using a muscular foot",claim
+"A compass needle points towards the magnetic north",claim
+"OPEC is an organization of petroleum exporting countries",claim
+"Lions live in groups called prides",claim
+"There are 360 degrees in a full circle",claim
+"Nikola Tesla contributed to the design of the modern AC electricity supply system",claim
+"Steam is the gaseous state of water",claim
+"The Suez Canal connects the Mediterranean Sea to the Red Sea",claim
+"Worms play a vital role in soil health",claim
+"Silver is the most electrically conductive element",claim
+"The capital of Mexico is Mexico City",claim
+"Owls are nocturnal birds of prey",claim
+"A rhombus has four equal sides but no right angles",claim
+"Napoleon Bonaparte was Emperor of the French",claim
+"The Milky Way is a barred spiral galaxy",claim
+"Proteins are made of amino acids",claim
+"Argon is a noble gas",claim
+"The Acropolis of Athens contains the Parthenon",claim
+"Cockroaches are highly resilient insects",claim
+"Power is the rate at which work is done",claim
+"The Tropic of Cancer is north of the equator",claim
+"The Declaration of Independence was signed in 1776",claim
+"Work equals force times distance",claim
+"Jakarta is the capital of Indonesia",claim
+"Polar bears are native to the Arctic",claim
+"Tsunamis are usually caused by underwater earthquakes",claim
+"The Mediterranean Sea is connected to the Atlantic Ocean",claim
+"A score consists of 20 years",claim
+"Queen Victoria ruled the British Empire for over 63 years",claim
+"Crabs have a thick exoskeleton and a pair of pincers",claim
+"An electromagnet creates a magnetic field using electricity",claim
+"NASA is the US space agency",claim
+"Tigers are solitary predators",claim
+"A right angle is exactly 90 degrees",claim
+"Alan Turing is considered a father of theoretical computer science",claim
+"Sublimation is the transition from solid directly to gas",claim
+"The Chunnel connects the UK and France beneath the English Channel",claim
+"Termites are known for consuming wood",claim
+"Gold is a highly malleable metal",claim
+"The capital of Peru is Lima",claim
+"Flamingos are famous for their pink feathers",claim
+"A trapezoid has one pair of parallel sides",claim
+"Simon Bolivar played a key role in South Americas successful struggle for independence",claim
+"Andromeda is the closest major galaxy to the Milky Way",claim
+"Lipids are a broad group of naturally occurring molecules",claim
+"Neon is often used in glowing signs",claim
+"Machu Picchu is an Incan citadel in Peru",claim
+"Fleas are wingless insects that feed on blood",claim
+"Pressure is force per unit area",claim
+"The Tropic of Capricorn is south of the equator",claim
+"The French Revolution began in 1789",claim
+"Momentum is mass times velocity",claim
+"Hanoi is the capital of Vietnam",claim
+"Koalas feed primarily on eucalyptus leaves",claim
+"Hurricanes form over warm ocean waters",claim
+"The Caribbean Sea surrounds the islands of the West Indies",claim
+"A gross is equal to 144 items",claim
+"Fidel Castro governed Cuba for nearly five decades",claim
+"Lobsters have blue blood",claim
+"Transformers are used to increase or decrease AC voltages",claim
+"The World Bank provides loans and grants to governments",claim
+"Zebras are known for their black and white stripes",claim
+"An acute angle is less than 90 degrees",claim
+"Stephen Hawking was a theoretical physicist known for his work on black holes",claim
+"Condensation is the change from gas to liquid",claim
+"The Brooklyn Bridge is in New York City",claim
+"Leeches are segmented worms",claim
+"Lead is a heavy toxic metal",claim
+"The capital of Kenya is Nairobi",claim
+"Peacocks are male peafowl known for their bright tail feathers",claim
+"A parallelogram has two pairs of parallel sides",claim
+"Mao Zedong was the founder of the Peoples Republic of China",claim
+"A light-year is a unit of distance",claim
+"Carbohydrates are a primary source of energy for the body",claim
+"Chlorine is used to purify water",claim
+"Petra is an archaeological city in Jordan",claim
+"Centipedes have one pair of legs per body segment",claim
+"Temperature is a measure of the average kinetic energy of particles",claim
+"The International Date Line roughly follows the 180 degree meridian",claim
+"The American Civil War ended in 1865",claim
+"Frequencies are measured in Hertz",claim
+"I completely disagree with that statement",not_claim
+"My favorite color is green",not_claim
+"Do you want to come over later?",not_claim
+"That movie was an absolute masterpiece",not_claim
+"I feel so exhausted today",not_claim
+"Please pass me the salt",not_claim
+"What a wonderful surprise",not_claim
+"I think dogs make the best pets",not_claim
+"Have you seen my keys anywhere?",not_claim
+"This coffee tastes a bit too bitter",not_claim
+"I am hoping for good weather tomorrow",not_claim
+"Turn off the lights when you leave",not_claim
+"Ouch that really hurt",not_claim
+"I prefer reading books over watching TV",not_claim
+"Where is the nearest gas station?",not_claim
+"That was a terrible decision",not_claim
+"I am craving some sushi right now",not_claim
+"Make sure to lock the door",not_claim
+"Congratulations on your new job",not_claim
+"I believe we should invest in renewable energy",not_claim
+"How much does this shirt cost?",not_claim
+"This is the best day of my life",not_claim
+"I want to learn how to play the guitar",not_claim
+"Call me back as soon as possible",not_claim
+"Wow I cannot believe my eyes",not_claim
+"I think winter is the most depressing season",not_claim
+"Did you finish the report yet?",not_claim
+"That joke was not funny at all",not_claim
+"I am feeling a little under the weather",not_claim
+"Don't forget to buy milk",not_claim
+"Happy birthday to you",not_claim
+"I suspect they are hiding something from us",not_claim
+"What time is our meeting scheduled for?",not_claim
+"This cake is incredibly delicious",not_claim
+"I wish I had more free time",not_claim
+"Send me the details when you get a chance",not_claim
+"Oh no I made a mistake",not_claim
+"I consider myself a very patient person",not_claim
+"Are we still on for dinner tonight?",not_claim
+"That music is way too loud",not_claim
+"I need to take a break soon",not_claim
+"Clean your room before you go out",not_claim
+"Good luck with your exam",not_claim
+"I feel like this project is a waste of time",not_claim
+"Who is going to the party with you?",not_claim
+"This artwork is absolutely stunning",not_claim
+"I plan to start exercising more often",not_claim
+"Let me know if you need any help",not_claim
+"Phew that was a close call",not_claim
+"I am convinced that aliens exist",not_claim
+"Why did you say that?",not_claim
+"That was a really boring lecture",not_claim
+"I want to travel the world someday",not_claim
+"Give me a minute to think about it",not_claim
+"Have a safe trip",not_claim
+"I think everyone should learn a second language",not_claim
+"Can you explain this math problem to me?",not_claim
+"This restaurant has the worst service",not_claim
+"I am so proud of your achievements",not_claim
+"Please do not touch the exhibits",not_claim
+"Yikes that looks dangerous",not_claim
+"I prefer tea over coffee",not_claim
+"What is your favorite kind of music?",not_claim
+"That performance was mediocre at best",not_claim
+"I need a cup of strong coffee right now",not_claim
+"Remind me to call my mom later",not_claim
+"Welcome to our new home",not_claim
+"I believe honesty is the best policy",not_claim
+"How do you fix a leaky faucet?",not_claim
+"This new phone is amazing",not_claim
+"I am going to take a long nap",not_claim
+"Stop making that annoying noise",not_claim
+"Cheers to a great weekend",not_claim
+"I think social media is harmful",not_claim
+"Did you hear the news today?",not_claim
+"That dress looks beautiful on you",not_claim
+"I am hoping to get a promotion this year",not_claim
+"Watch out for that step",not_claim
+"My goodness it is hot outside",not_claim
+"I feel that the ending of the book was rushed",not_claim
+"Where did you buy those shoes?",not_claim
+"This soup is too salty",not_claim
+"I want to start a garden in my backyard",not_claim
+"Hold on a second please",not_claim
+"Happy anniversary",not_claim
+"I think we need to change our strategy",not_claim
+"Is there anything I can do?",not_claim
+"That was a very smart move",not_claim
+"I feel so relaxed after that massage",not_claim
+"Please keep your voice down",not_claim
+"Awesome job on the presentation",not_claim
+"I strongly dislike waking up early",not_claim
+"When will the package arrive?",not_claim
+"This game is so frustrating",not_claim
+"I need to buy a new laptop soon",not_claim
+"Take an umbrella just in case",not_claim
+"Have a great day at school",not_claim
+"I assume the train will be late",not_claim
+"What are you doing this weekend?",not_claim
+"That sunset is breathtaking",not_claim
+"I am trying to eat healthier",not_claim
+"Bring me a glass of water please",not_claim
+"Oh well better luck next time",not_claim
+"I think remote work is the future",not_claim
+"Could you repeat that?",not_claim
+"This is the most boring party ever",not_claim
+"I want to read more books this year",not_claim
+"Don't worry about the mess",not_claim
+"Happy New Year",not_claim
+"I feel confident about the interview",not_claim
+"How was your day at work?",not_claim
+"That is a ridiculous idea",not_claim
+"I am excited for the upcoming concert",not_claim
+"Please sign the document here",not_claim
+"Ugh I hate waiting in line",not_claim
+"I prefer summer over winter",not_claim
+"Are you feeling okay today?",not_claim
+"This book is unputdownable",not_claim
+"I need to clean out my closet",not_claim
+"Let us go for a walk in the park",not_claim
+"Good evening ladies and gentlemen",not_claim
+"I think cooking at home is better than eating out",not_claim
+"What is the password for the wifi?",not_claim
+"That was a very generous gift",not_claim
+"I am looking forward to our vacation",not_claim
+"Pay attention to the instructions",not_claim
+"Brrr it is freezing in here",not_claim
+"I believe that hard work pays off",not_claim
+"Did you sleep well last night?",not_claim
+"This movie is way too long",not_claim
+"I am going to try baking bread today",not_claim
+"Please be careful on the stairs",not_claim
+"Merry Christmas",not_claim
+"I think public transport should be free",not_claim
+"Where are we going for lunch?",not_claim
+"That was an excellent meal",not_claim
+"I feel overwhelmed by all this work",not_claim
+"Check your email for the update",not_claim
+"Hooray we won the game",not_claim
+"I prefer watching movies at home rather than the theater",not_claim
+"How do I reset my password?",not_claim
+"This room is completely disorganized",not_claim
+"I want to adopt a rescue dog",not_claim
+"Stay right there while I get help",not_claim
+"Have a wonderful weekend",not_claim
+"I suspect it is going to rain later",not_claim
+"What did you think of the finale?",not_claim
+"That is a gorgeous painting",not_claim
+"I need to stretch my legs",not_claim
+"Finish your dinner before having dessert",not_claim
+"Oh my gosh that is so cute",not_claim
+"I think Mondays are the hardest days",not_claim
+"Can we discuss this tomorrow?",not_claim
+"This couch is incredibly comfortable",not_claim
+"I am hoping to learn a new programming language",not_claim
+"Please write your name at the top",not_claim
+"Alas the weekend is over",not_claim
+"I believe that travel broadens the mind",not_claim
+"Did you remember to feed the cat?",not_claim
+"That car is way too expensive",not_claim
+"I am so grateful for your support",not_claim
+"Look at that beautiful bird",not_claim
+"Welcome back to work",not_claim
+"I think early mornings are peaceful",not_claim
+"What is your favorite book genre?",not_claim
+"This coffee shop has a great vibe",not_claim
+"I want to try that new recipe tonight",not_claim
+"Close the window please",not_claim
+"Oops I dropped my pen",not_claim
+"I prefer driving to flying",not_claim
+"Are you ready to order?",not_claim
+"That was a very compelling argument",not_claim
+"I need a vacation to the beach",not_claim
+"Turn left at the next intersection",not_claim
+"Good afternoon everyone",not_claim
+"I feel that this policy is unfair",not_claim
+"How long does the flight take?",not_claim
+"This is an absolute disaster",not_claim
+"I am going to skip the gym today",not_claim
+"Please stand behind the yellow line",not_claim
+"Wow you did a fantastic job",not_claim
+"I think we should paint the walls blue",not_claim
+"Can you believe how fast time flies?",not_claim
+"That was a very touching speech",not_claim
+"I am looking for a new apartment",not_claim
+"Put your phone away during the movie",not_claim
+"Happy Holidays",not_claim
+"I believe everyone deserves a second chance",not_claim
+"Why is the sky blue?",not_claim
+"This weather is perfect for a picnic",not_claim
+"I feel like having ice cream for dinner",not_claim
+"Let me check my calendar",not_claim
+"Thank goodness it is Friday",not_claim
+"I prefer acoustic music to electronic",not_claim
+"What time does the store close?",not_claim
+"That jacket is very stylish",not_claim
+"I need to drink more water daily",not_claim
+"Please submit your assignment by Friday",not_claim
+"Hurrah the project is finally done",not_claim
+"I think historical fiction is fascinating",not_claim
+"Did you enjoy the concert?",not_claim
+"This puzzle is too difficult",not_claim
+"I want to upgrade my phone",not_claim
+"Be sure to read the terms and conditions",not_claim
+"Goodnight sweet dreams",not_claim
+"I feel confident in my abilities",not_claim
+"How are you feeling today?",not_claim
+"That is the best news I have heard all week",not_claim
+"I am going to take a long bath",not_claim
+"Please turn down the volume",not_claim
+"Aha I finally figured it out",not_claim
+"I think cats are more independent than dogs",not_claim
+"What is your favorite holiday?",not_claim
+"This article is very well written",not_claim
+"I need to save more money",not_claim
+"Follow me to the conference room",not_claim
+"Have a fantastic time on your trip",not_claim
+"I believe the company is headed in the right direction",not_claim
+"Can you pass me the remote?",not_claim
+"That was a weird coincidence",not_claim
+"I feel incredibly lucky today",not_claim
+"Please reply to this email to confirm",not_claim
+"Bravo what a performance",not_claim
+"I prefer taking the stairs instead of the elevator",not_claim
+"Where is the bathroom located?",not_claim
+"This traffic is driving me crazy",not_claim
+"I want to volunteer at the animal shelter",not_claim
+"Wait for me at the entrance",not_claim
+"Enjoy your meal",not_claim
+"I think modern art is confusing",not_claim
+"Are there any questions?",not_claim
+"That was a very thoughtful gesture",not_claim
+"I need to organize my desk",not_claim
+"Please wear a seatbelt",not_claim
+"Oof that was a heavy box",not_claim
+"I believe a positive attitude is important",not_claim
+"How do you make this sauce?",not_claim
+"This is an unacceptable delay",not_claim
+"I am so excited to see you",not_claim
+"Do not feed the animals",not_claim
+"Wow this place is huge",not_claim
+"I think handwritten letters are special",not_claim
+"Did you lock the car?",not_claim
+"That movie made me cry",not_claim
+"I need to buy a birthday present",not_claim
+"Please wait to be seated",not_claim
+"Happy Halloween",not_claim
+"I feel that silence is sometimes the best answer",not_claim
+"What is on the agenda for today?",not_claim
+"This bed is too soft",not_claim
+"I am going to call it a night",not_claim
+"Remember to bring your ID",not_claim
+"Whew I am glad that is over",not_claim
+"The capital of Japan is Tokyo",claim
+"The human brain contains approximately 86 billion neurons",claim
+"Mount Fuji is the highest mountain in Japan",claim
+"Apples grow on trees",claim
+"The Pacific Ocean is the largest ocean on Earth",claim
+"Venus is the second planet from the Sun",claim
+"The chemical formula for carbon dioxide is CO2",claim
+"Friction produces heat",claim
+"Oxygen is necessary for human survival",claim
+"A standard deck of playing cards has 52 cards",claim
+"The Amazon River flows through South America",claim
+"An equilateral triangle has three equal sides",claim
+"Julius Caesar crossed the Rubicon in 49 BC",claim
+"Jupiter has a moon named Europa",claim
+"The Euro is the official currency of Germany",claim
+"Ostriches cannot fly",claim
+"The femur is the longest bone in the human body",claim
+"Copper turns green when it oxidizes",claim
+"Jane Austen wrote Pride and Prejudice",claim
+"A nonagon has nine sides",claim
+"The Gobi Desert is located in Asia",claim
+"Sheep are herbivores",claim
+"The speed of light in a vacuum is constant",claim
+"Paris is the capital of France",claim
+"All mammals have hair or fur at some point in their lives",claim
+"A heptagon has seven sides",claim
+"The telephone was invented before the internet",claim
+"Saturn is the sixth planet from the Sun",claim
+"Plants release oxygen during photosynthesis",claim
+"Nitrogen is a gas at room temperature",claim
+"The Eiffel Tower is made of iron",claim
+"Whale sharks are the largest fish in the ocean",claim
+"Graphite is a form of carbon",claim
+"The moon orbits the Earth",claim
+"The Hindenburg disaster occurred in 1937",claim
+"Gravity is an attractive force between masses",claim
+"Rome is the capital of Italy",claim
+"Blue whales are mammals",claim
+"Light travels faster than sound",claim
+"The Mariana Trench is the deepest part of the ocean",claim
+"A leap year occurs every four years",claim
+"Thomas Jefferson wrote the Declaration of Independence",claim
+"Peregrine falcons are the fastest birds",claim
+"The Earth has a magnetic field",claim
+"The League of Nations preceded the United Nations",claim
+"Dolphins are not fish",claim
+"There are 60 seconds in a minute",claim
+"Albert Einstein won the Nobel Prize in Physics",claim
+"Water expands when it freezes",claim
+"The Leaning Tower of Pisa is in Italy",claim
+"Toads are amphibians",claim
+"Sound travels faster in water than in air",claim
+"The capital of Canada is Ottawa",claim
+"Turtles are reptiles",claim
+"A circle has 360 degrees",claim
+"Alexander Fleming discovered penicillin",claim
+"Mars has two small moons",claim
+"Red blood cells carry oxygen",claim
+"Hydrogen is the lightest element",claim
+"The Parthenon is a temple in Greece",claim
+"Lizards are reptiles",claim
+"The boiling point of water decreases at higher altitudes",claim
+"The Earth revolves around the Sun",claim
+"The Cold War ended in the early 1990s",claim
+"Thermal energy is related to temperature",claim
+"Tokyo is the capital of Japan",claim
+"Kiwis are flightless birds native to New Zealand",claim
+"A solar eclipse only occurs during a new moon",claim
+"The Atlantic Ocean is between the Americas and Europe/Africa",claim
+"There are 100 years in a century",claim
+"Nelson Mandela was imprisoned for 27 years",claim
+"Platypuses lay eggs",claim
+"Earth's core is primarily made of iron and nickel",claim
+"The yen is the currency of Japan",claim
+"Bats use echolocation to find prey",claim
+"There are 365 days in a common year",claim
+"Isaac Newton wrote the Principia Mathematica",claim
+"Water is a compound made of hydrogen and oxygen",claim
+"The Sydney Opera House is in Australia",claim
+"Spiders are arachnids",claim
+"Plastic is an insulator",claim
+"The capital of Spain is Madrid",claim
+"Penguins live in the Southern Hemisphere",claim
+"A regular pentagon has internal angles of 108 degrees",claim
+"Rosa Parks refused to give up her bus seat in 1955",claim
+"Neptune has a moon named Triton",claim
+"Mitochondria are known as the powerhouse of the cell",claim
+"Methane is a greenhouse gas",claim
+"The Great Wall of China was built to protect against invasions",claim
+"Tadpoles breathe through gills",claim
+"Water is denser than ice",claim
+"Earth's axis is tilted",claim
+"The Wright brothers invented the first successful airplane",claim
+"Kinetic energy is proportional to the square of velocity",claim
+"New Delhi is the capital of India",claim
+"Elephants have large ears to help regulate their body temperature",claim
+"A lunar eclipse only occurs during a full moon",claim
+"The Southern Ocean is the newest named ocean",claim
+"A score is twenty years",claim
+"Cleopatra was of Macedonian Greek descent",claim
+"Snakes are carnivorous",claim
+"Earth's magnetic poles wander over time",claim
+"The WHO is headquartered in Geneva",claim
+"Gorillas are the largest living primates",claim
+"There are 52 weeks in a year",claim
+"Galileo discovered the four largest moons of Jupiter",claim
+"The human body is mostly water",claim
+"Mount Everest is in the Himalayas",claim
+"Bees live in hives",claim
+"Glass is an insulator",claim
+"The capital of Russia is Moscow",claim
+"Fish use gills to extract oxygen from water",claim
+"A square is a type of rectangle",claim
+"Joan of Arc was burned at the stake",claim
+"Pluto is located in the Kuiper Belt",claim
+"DNA is shaped like a double helix",claim
+"Nitrogen is the most abundant gas in Earth's atmosphere",claim
+"The Pyramids of Giza were built as tombs",claim
+"Caterpillars turn into butterflies or moths",claim
+"Density is a physical property of matter",claim
+"The prime meridian is at 0 degrees longitude",claim
+"The Soviet Union launched Sputnik 1 in 1957",claim
+"Velocity is a vector quantity",claim
+"London is the capital of the United Kingdom",claim
+"Giraffes have the same number of neck vertebrae as humans",claim
+"Tsunamis can travel at the speed of a jet airliner",claim
+"The Indian Ocean is warmer than the Arctic Ocean",claim
+"A millennium is one thousand years",claim
+"Queen Elizabeth II was the longest-reigning British monarch",claim
+"Crocodiles have powerful jaws",claim
+"Electromagnets require an electric current to work",claim
+"The IMF is an international financial institution",claim
+"Chimpanzees use tools",claim
+"There are 12 inches in a foot",claim
+"Johannes Kepler formulated the laws of planetary motion",claim
+"Evaporation is the process of a liquid turning into a gas",claim
+"The Panama Canal is in Central America",claim
+"Ants can carry many times their body weight",claim
+"Silver is a better conductor than copper",claim
+"The capital of South Korea is Seoul",claim
+"Owls can rotate their heads significantly",claim
+"A rhombus with right angles is a square",claim
+"Napoleon was defeated at the Battle of Waterloo",claim
+"The Milky Way contains billions of stars",claim
+"Enzymes are biological catalysts",claim
+"Helium is a noble gas",claim
+"The Colosseum was used for gladiatorial contests",claim
+"Cockroaches can live for a week without a head",claim
+"Power is measured in watts",claim
+"The Tropic of Cancer is at approximately 23.5 degrees North",claim
+"The US Constitution was written in 1787",claim
+"Work is measured in joules",claim
+"Rome is in Europe",claim
+"Polar bears have black skin under their white fur",claim
+"Hurricanes are also known as typhoons or cyclones",claim
+"The Mediterranean Sea is almost completely enclosed by land",claim
+"A gross is 144",claim
+"Fidel Castro was a Cuban revolutionary",claim
+"Lobsters molt their shells as they grow",claim
+"A transformer can only operate on alternating current",claim
+"The World Bank is headquartered in Washington DC",claim
+"Zebras are native to Africa",claim
+"An obtuse angle is greater than 90 degrees",claim
+"Marie Curie discovered radium and polonium",claim
+"Sublimation is the phase change from solid to gas",claim
+"The Channel Tunnel connects Britain and France",claim
+"Termites digest cellulose",claim
+"Gold does not tarnish easily",claim
+"The capital of China is Beijing",claim
+"Flamingos get their color from their diet",claim
+"A trapezoid is a quadrilateral",claim
+"Simon Bolivar is known as El Libertador",claim
+"Andromeda is a spiral galaxy",claim
+"Fats are a type of lipid",claim
+"Neon is a chemical element",claim
+"Machu Picchu was built by the Incas",claim
+"Fleas can jump incredibly high relative to their size",claim
+"Pressure is measured in Pascals",claim
+"The Tropic of Capricorn is at approximately 23.5 degrees South",claim
+"The French Revolution led to the execution of Louis XVI",claim
+"Momentum is conserved in a closed system",claim
+"Bangkok is in Thailand",claim
+"Koalas are marsupials",claim
+"Tornadoes are violently rotating columns of air",claim
+"The Caribbean Sea is in the Western Hemisphere",claim
+"A baker's dozen is 13",claim
+"Winston Churchill won a Nobel Prize in Literature",claim
+"Crabs are crustaceans",claim
+"An electric motor converts electrical energy into mechanical energy",claim
+"NASA was established in 1958",claim
+"Tigers are the largest cat species",claim
+"A straight angle is exactly 180 degrees",claim
+"Alan Turing worked at Bletchley Park during WWII",claim
+"Condensation forms clouds",claim
+"The Golden Gate Bridge is a suspension bridge",claim
+"Leeches are used in some medical procedures",claim
+"Lead was once commonly used in paint",claim
+"The capital of Egypt is Cairo",claim
+"Peacocks are native to Asia",claim
+"A parallelogram's opposite angles are equal",claim
+"Mao Zedong led the Long March",claim
+"A light-year is roughly 9.46 trillion kilometers",claim
+"Glucose is a simple sugar",claim
+"Chlorine is a halogen",claim
+"Petra is known as the Rose City",claim
+"Centipedes are carnivorous",claim
+"Temperature can be measured in Kelvin",claim
+"The International Date Line passes through the Pacific Ocean",claim
+"The American Civil War started in 1861",claim
+"Frequency is the number of occurrences of a repeating event per unit of time",claim
+"The capital of Mexico is Mexico City",claim
+"Cheetahs cannot roar",claim
+"A polygon is a closed two-dimensional shape",claim
+"George Washington did not have wooden teeth",claim
+"Venus rotates in the opposite direction of most planets",claim
+"Vaccines stimulate the body's immune system",claim
+"Carbon is found in all known organic life",claim
+"The Great Sphinx is made of limestone",claim
+"Monarch butterflies migrate thousands of miles",claim
+"Weight is the force exerted by gravity on an object",claim
+"The prime meridian passes through the Royal Observatory",claim
+"The Berlin Wall was built in 1961",claim
+"Acceleration due to gravity on Earth is approximately 9.8 m/s^2",claim
+"Jakarta is located on the island of Java",claim
+"Rhinos have horns made of keratin",claim
+"An earthquake's epicenter is the point on the surface directly above the focus",claim
+"The Black Sea is bordered by Europe and Asia",claim
+"A century is 100 years",claim
+"Cleopatra was the last pharaoh of Ancient Egypt",claim
+"Tortoises are land-dwelling reptiles",claim
+"Like charges repel each other",claim
+"The European Union has 27 member states",claim
+"Orangutans are native to Indonesia and Malaysia",claim
+"There are 24 time zones in the world",claim
+"Charles Darwin traveled on the HMS Beagle",claim
+"Boiling is a type of vaporization",claim
+"The Brooklyn Bridge connects Manhattan and Brooklyn",claim
+"Mosquitoes require water to breed",claim
+"Aluminum is a lightweight metal",claim
+"The capital of Argentina is Buenos Aires",claim
+"Seahorses are fish",claim
+"A kite is a quadrilateral with two distinct pairs of equal-length sides",claim
+"Martin Luther King Jr. was assassinated in 1968",claim
+"Uranus rotates on its side",claim
+"Chloroplasts are found in plant cells",claim
+"Ozone is a molecule composed of three oxygen atoms",claim
+"Stonehenge was built in several stages",claim
+"Ticks are arachnids",claim
+"Inertia is the resistance of an object to a change in its motion",claim
+"The equator is at 0 degrees latitude",claim
+"The Magna Carta restricted the power of the King of England",claim
+"Force is measured in Newtons",claim
+"Lima is the capital of Peru",claim
+"Camels can survive for long periods without water",claim
+"Magma is molten rock located beneath the Earth's surface",claim
+"The Gulf of Mexico is bordered by the US, Mexico, and Cuba",claim
+"A millennium is 1000 years",claim
+"Genghis Khan's empire was the largest contiguous empire in history",claim
+"Snails have shells",claim
+"A compass uses Earth's magnetic field to determine direction",claim
+"OPEC regulates petroleum policies among its members",claim
+"Lions are the only cats that live in social groups",claim
+"There are 360 degrees in a circle",claim
+"Nikola Tesla was born in the Austrian Empire",claim
+"Steam is invisible",claim
+"The Suez Canal is in Egypt",claim
+"Earthworms are hermaphrodites",claim
+"Silver is a chemical element with the symbol Ag",claim
+"I completely agree with you",not_claim
+"My favorite food is pasta",not_claim
+"Do you want to play a game?",not_claim
+"That book was incredibly boring",not_claim
+"I feel so energetic today",not_claim
+"Please hand me the pen",not_claim
+"What a terrible disaster",not_claim
+"I think cats make the best pets",not_claim
+"Have you found your wallet?",not_claim
+"This tea is way too sweet",not_claim
+"I am hoping for snow tomorrow",not_claim
+"Close the door when you leave",not_claim
+"Wow that really hurt",not_claim
+"I prefer watching sports over playing them",not_claim
+"Where is the nearest grocery store?",not_claim
+"That was a brilliant idea",not_claim
+"I am craving some tacos right now",not_claim
+"Make sure to set your alarm",not_claim
+"Congratulations on your graduation",not_claim
+"I believe we should recycle more",not_claim
+"How much does this book cost?",not_claim
+"This is the worst day of my life",not_claim
+"I want to learn how to speak Spanish",not_claim
+"Text me when you get home",not_claim
+"Wow I cannot believe it",not_claim
+"I think autumn is the most beautiful season",not_claim
+"Did you finish the reading assignment?",not_claim
+"That meme was not funny",not_claim
+"I am feeling a little sick",not_claim
+"Don't forget to buy bread",not_claim
+"Happy early birthday",not_claim
+"I suspect it will rain tomorrow",not_claim
+"What time is our reservation?",not_claim
+"This pie is absolutely delicious",not_claim
+"I wish I had a million dollars",not_claim
+"Send me the link when you can",not_claim
+"Oh no I spilled my drink",not_claim
+"I consider myself a very organized person",not_claim
+"Are we still going to the movies?",not_claim
+"That alarm is way too loud",not_claim
+"I need to take a nap",not_claim
+"Wash your hands before dinner",not_claim
+"Good luck with your interview",not_claim
+"I feel like this movie is a waste of time",not_claim
+"Who is driving you to the airport?",not_claim
+"This sculpture is absolutely stunning",not_claim
+"I plan to start waking up earlier",not_claim
+"Let me know if you need anything",not_claim
+"Phew that was a tough workout",not_claim
+"I am convinced that ghosts are real",not_claim
+"Why did you do that?",not_claim
+"That was a really interesting documentary",not_claim
+"I want to travel to Europe next year",not_claim
+"Give me a second to process that",not_claim
+"Have a safe flight",not_claim
+"I think everyone should learn to cook",not_claim
+"Can you explain this rule to me?",not_claim
+"This store has the worst customer service",not_claim
+"I am so proud of your progress",not_claim
+"Please do not walk on the grass",not_claim
+"Yikes that looks really scary",not_claim
+"I prefer iced tea over hot tea",not_claim
+"What is your favorite kind of movie?",not_claim
+"That performance was outstanding",not_claim
+"I need a glass of water right now",not_claim
+"Remind me to text my friend later",not_claim
+"Welcome to our beautiful city",not_claim
+"I believe kindness is underrated",not_claim
+"How do you fix a flat tire?",not_claim
+"This new laptop is amazing",not_claim
+"I am going to take a long walk",not_claim
+"Stop tapping your pen",not_claim
+"Cheers to a successful project",not_claim
+"I think smartphones are making us less social",not_claim
+"Did you hear the thunder last night?",not_claim
+"That shirt looks great on you",not_claim
+"I am hoping to get an A on this test",not_claim
+"Watch out for that puddle",not_claim
+"My goodness it is cold outside",not_claim
+"I feel that the sequel was better than the original",not_claim
+"Where did you buy that hat?",not_claim
+"This soup is too spicy",not_claim
+"I want to start a podcast",not_claim
+"Hold on a minute please",not_claim
+"Happy Valentine's Day",not_claim
+"I think we need to rethink this plan",not_claim
+"Is there anything I can help with?",not_claim
+"That was a very clever trick",not_claim
+"I feel so stressed out right now",not_claim
+"Please chew with your mouth closed",not_claim
+"Awesome job on the exam",not_claim
+"I strongly dislike eating mushrooms",not_claim
+"When will the train arrive?",not_claim
+"This puzzle is so frustrating",not_claim
+"I need to buy a new car soon",not_claim
+"Take a jacket just in case",not_claim
+"Have a great time at the party",not_claim
+"I assume the meeting will be canceled",not_claim
+"What are you doing tonight?",not_claim
+"That sunrise is breathtaking",not_claim
+"I am trying to read more books",not_claim
+"Bring me a napkin please",not_claim
+"Oh well it is what it is",not_claim
+"I think electric cars are the future",not_claim
+"Could you say that again?",not_claim
+"This is the most exciting game ever",not_claim
+"I want to run a marathon this year",not_claim
+"Don't worry about the small stuff",not_claim
+"Happy Thanksgiving",not_claim
+"I feel confident about the presentation",not_claim
+"How was your trip to Hawaii?",not_claim
+"That is a brilliant strategy",not_claim
+"I am excited for the new season to start",not_claim
+"Please sign on the dotted line",not_claim
+"Ugh I hate doing laundry",not_claim
+"I prefer spring over fall",not_claim
+"Are you feeling better today?",not_claim
+"This book is a real page-turner",not_claim
+"I need to clean out my garage",not_claim
+"Let us go for a hike in the mountains",not_claim
+"Good morning class",not_claim
+"I think going to the gym is boring",not_claim
+"What is the passcode for the door?",not_claim
+"That was a very kind gesture",not_claim
+"I am looking forward to the weekend",not_claim
+"Pay attention to the road",not_claim
+"Brrr the AC is too high",not_claim
+"I believe that practice makes perfect",not_claim
+"Did you sleep through your alarm?",not_claim
+"This movie is way too scary",not_claim
+"I am going to try painting today",not_claim
+"Please be careful crossing the street",not_claim
+"Merry Eve",not_claim
+"I think universal healthcare is a good idea",not_claim
+"Where are we going for dinner?",not_claim
+"That was a fantastic concert",not_claim
+"I feel overwhelmed by all this clutter",not_claim
+"Check your messages for the address",not_claim
+"Hooray the school year is over",not_claim
+"I prefer listening to podcasts rather than music",not_claim
+"How do I install this software?",not_claim
+"This room is completely spotless",not_claim
+"I want to foster a cat",not_claim
+"Stay right there while I grab my keys",not_claim
+"Have a wonderful evening",not_claim
+"I suspect they will be late again",not_claim
+"What did you think of the new album?",not_claim
+"That is a beautiful photograph",not_claim
+"I need to stretch my back",not_claim
+"Finish your chores before playing video games",not_claim
+"Oh my gosh that is hilarious",not_claim
+"I think Fridays are the best days",not_claim
+"Can we discuss this over coffee?",not_claim
+"This chair is incredibly uncomfortable",not_claim
+"I am hoping to learn how to knit",not_claim
+"Please print your name clearly",not_claim
+"Alas the holiday is over",not_claim
+"I believe that reading broadens the imagination",not_claim
+"Did you remember to lock the door?",not_claim
+"That watch is way too expensive",not_claim
+"I am so grateful for your friendship",not_claim
+"Look at that beautiful sunset",not_claim
+"Welcome back to school",not_claim
+"I think late nights are peaceful",not_claim
+"What is your favorite video game?",not_claim
+"This bakery has a great atmosphere",not_claim
+"I want to try that new cafe tomorrow",not_claim
+"Open the window please",not_claim
+"Oops I forgot my wallet",not_claim
+"I prefer taking the bus to driving",not_claim
+"Are you ready to go?",not_claim
+"That was a very weak argument",not_claim
+"I need a vacation to the mountains",not_claim
+"Turn right at the next stoplight",not_claim
+"Good evening everyone",not_claim
+"I feel that this rule is unnecessary",not_claim
+"How long does the drive take?",not_claim
+"This is an absolute miracle",not_claim
+"I am going to skip breakfast today",not_claim
+"Please stay behind the red tape",not_claim
+"Wow you did a terrible job",not_claim
+"I think we should paint the living room green",not_claim
+"Can you believe how much it snowed?",not_claim
+"That was a very boring speech",not_claim
+"I am looking for a new job",not_claim
+"Put your shoes away in the closet",not_claim
+"Happy New Year's Eve",not_claim
+"I believe everyone should volunteer",not_claim
+"Why is grass green?",not_claim
+"This weather is perfect for a run",not_claim
+"I feel like having pizza for lunch",not_claim
+"Let me check my schedule",not_claim
+"Thank goodness it is over",not_claim
+"I prefer classical music to jazz",not_claim
+"What time does the movie start?",not_claim
+"That sweater is very ugly",not_claim
+"I need to drink less soda",not_claim
+"Please submit your application by Monday",not_claim
+"Hurrah the package finally arrived",not_claim
+"I think science fiction is boring",not_claim
+"Did you enjoy the play?",not_claim
+"This math problem is too difficult",not_claim
+"I want to downgrade my internet plan",not_claim
+"Be sure to read the instructions carefully",not_claim
+"Goodnight sleep tight",not_claim
+"I feel insecure about my presentation",not_claim
+"How are you doing today?",not_claim
+"That is the worst news I have heard all week",not_claim
+"I am going to take a quick shower",not_claim
+"Please turn up the heat",not_claim
+"Aha I finally found it",not_claim
+"I think dogs are more affectionate than cats",not_claim
+"What is your favorite season?",not_claim
+"This essay is very poorly written",not_claim
+"I need to spend less money",not_claim
+"Follow me to the kitchen",not_claim
+"Have a terrible time on your trip",not_claim
+"I believe the company is making a huge mistake",not_claim
+"Can you pass me the ketchup?",not_claim
+"That was a strange dream",not_claim
+"I feel incredibly unlucky today",not_claim
+"Please do not reply to this email",not_claim
+"Bravo what a terrible performance",not_claim
+"I prefer taking the elevator instead of the stairs",not_claim
+"Where is the exit located?",not_claim
+"This noise is driving me crazy",not_claim
+"I want to donate to the food bank",not_claim
+"Wait for me at the corner",not_claim
+"Enjoy your flight",not_claim
+"I think abstract art is beautiful",not_claim
+"Are there any leftovers?",not_claim
+"That was a very mean gesture",not_claim
+"I need to organize my closet",not_claim
+"Please do not smoke here",not_claim
+"Oof that was a hard hit",not_claim
+"I believe a negative attitude is toxic",not_claim
+"How do you bake this cake?",not_claim
+"This is an acceptable compromise",not_claim
+"I am so dreading seeing you",not_claim
+"Do not touch the wet paint",not_claim
+"Wow this place is tiny",not_claim
+"I think emails are more efficient than letters",not_claim
+"Did you turn off the oven?",not_claim
+"That movie made me laugh out loud",not_claim
+"I need to buy a graduation gift",not_claim
+"Please seat yourselves",not_claim
+"Happy Easter",not_claim
+"I feel that honesty is sometimes overrated",not_claim
+"What is on the menu for today?",not_claim
+"This pillow is too hard",not_claim
+"I am going to stay up late",not_claim
+"Remember to bring your ticket",not_claim
+"Whew I am sad that is over",not_claim
