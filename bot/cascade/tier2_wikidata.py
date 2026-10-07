@@ -137,27 +137,27 @@ async def _check_birth_date(claim_text: str) -> Optional[Verdict]:
         if claimed_year is not None:
             if int(claimed_year) == actual_year:
                 return Verdict(
-                    label="True",
+                    label="Unverifiable",
                     explanation=f"{person_label} was indeed born in {actual_year}.",
                     sources=[f"https://www.wikidata.org/wiki/{row.get('person', {}).get('value', '').split('/')[-1]}"],
-                    tier="wikidata",
+                    tier="knowledge_evidence",
                     confidence=0.95,
                 )
             else:
                 return Verdict(
-                    label="False",
+                    label="Unverifiable",
                     explanation=f"{person_label} was born in {actual_year}, not {int(claimed_year)}.",
                     sources=[f"https://www.wikidata.org/wiki/{row.get('person', {}).get('value', '').split('/')[-1]}"],
-                    tier="wikidata",
+                    tier="knowledge_evidence",
                     confidence=0.95,
                 )
 
 
     return Verdict(
-        label="True",
+        label="Unverifiable",
         explanation=f"{person_label} was born on {birth_date_str[:10]}.",
         sources=[f"https://www.wikidata.org/wiki/{row.get('person', {}).get('value', '').split('/')[-1]}"],
-        tier="wikidata",
+        tier="knowledge_evidence",
         confidence=0.9,
     )
 
@@ -204,26 +204,26 @@ async def _check_death_date(claim_text: str) -> Optional[Verdict]:
         if claimed_year is not None:
             if int(claimed_year) == actual_year:
                 return Verdict(
-                    label="True",
+                    label="Unverifiable",
                     explanation=f"{person_label} died in {actual_year}.",
                     sources=[f"https://www.wikidata.org/wiki/{person_id}"],
-                    tier="wikidata",
+                    tier="knowledge_evidence",
                     confidence=0.95,
                 )
             else:
                 return Verdict(
-                    label="False",
+                    label="Unverifiable",
                     explanation=f"{person_label} died in {actual_year}, not {int(claimed_year)}.",
                     sources=[f"https://www.wikidata.org/wiki/{person_id}"],
-                    tier="wikidata",
+                    tier="knowledge_evidence",
                     confidence=0.95,
                 )
 
     return Verdict(
-        label="True",
+        label="Unverifiable",
         explanation=f"{person_label} died on {death_date_str[:10]}.",
         sources=[f"https://www.wikidata.org/wiki/{person_id}"],
-        tier="wikidata",
+        tier="knowledge_evidence",
         confidence=0.9,
     )
 
@@ -275,18 +275,18 @@ async def _check_population(claim_text: str) -> Optional[Verdict]:
     tolerance = actual_pop * 0.1
     if abs(actual_pop - claimed_pop) <= tolerance:
         return Verdict(
-            label="True",
+            label="Unverifiable",
             explanation=f"The population of {place_label} is approximately {actual_pop:,}.",
             sources=[f"https://www.wikidata.org/wiki/{place_id}"],
-            tier="wikidata",
+            tier="knowledge_evidence",
             confidence=0.85,
         )
     else:
         return Verdict(
-            label="False",
+            label="Unverifiable",
             explanation=f"The population of {place_label} is approximately {actual_pop:,}, not {claimed_pop:,}.",
             sources=[f"https://www.wikidata.org/wiki/{place_id}"],
-            tier="wikidata",
+            tier="knowledge_evidence",
             confidence=0.85,
         )
 
@@ -332,18 +332,18 @@ async def _check_event_date(claim_text: str) -> Optional[Verdict]:
 
     if int(claimed_year) == actual_year:
         return Verdict(
-            label="True",
+            label="Unverifiable",
             explanation=f"{event_label} occurred in {actual_year}.",
             sources=[f"https://www.wikidata.org/wiki/{event_id}"],
-            tier="wikidata",
+            tier="knowledge_evidence",
             confidence=0.9,
         )
     else:
         return Verdict(
-            label="False",
+            label="Unverifiable",
             explanation=f"{event_label} occurred in {actual_year}, not {int(claimed_year)}.",
             sources=[f"https://www.wikidata.org/wiki/{event_id}"],
-            tier="wikidata",
+            tier="knowledge_evidence",
             confidence=0.9,
         )
 
@@ -380,10 +380,10 @@ async def _check_capital(claim_text: str) -> Optional[Verdict]:
     city_id = row.get("city", {}).get("value", "").split("/")[-1]
 
     return Verdict(
-        label="True",
+        label="Unverifiable",
         explanation=f"{city_label} is indeed the capital of {country_label}.",
         sources=[f"https://www.wikidata.org/wiki/{city_id}"],
-        tier="wikidata",
+        tier="knowledge_evidence",
         confidence=0.9,
     )
 
@@ -587,6 +587,6 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
         label=label,
         explanation=explanation,
         sources=sources,
-        tier="wikipedia",
+        tier="knowledge_evidence",
         confidence=0.65 if label == "True" else 0.5,
     )
