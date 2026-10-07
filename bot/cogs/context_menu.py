@@ -62,7 +62,7 @@ class ContextMenuCog(commands.Cog):
 
         if not claim_text or len(claim_text.strip()) < 5:
             await interaction.followup.send(
-                embed=format_not_a_claim(),
+                embed=format_ocr_failed() if extracted.image_seen else format_not_a_claim(),
                 ephemeral=True,
             )
             return
