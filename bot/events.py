@@ -17,7 +17,7 @@ from bot.cascade.verdict import (
 from bot.db import crud
 from bot.db import session as db_session
 from bot.detection.classifier import ClaimDetector
-from bot.ocr import extract_text_from_image
+from bot.message_text import extract_message_text, strip_bot_mention
 
 logger = logging.getLogger(__name__)
 
@@ -46,12 +46,18 @@ class Events(commands.Cog):
             return
 
         
-        if self.bot.user in message.mentions:
-            mention_str = f"<@{self.bot.user.id}>"
-            claim_text = message.content.replace(mention_str, "", 1).strip()
-            if not claim_text:
+        if self.bot.user and self.bot.user in message.mentions:
+            claim_text = strip_bot_mention(message.content, self.bot.user.id)
+            extracted = await extract_message_text(
+                message, ocr_threshold=self.settings.OCR_Threshold, base_text=claim_text
+            )
+            if len(extracted.text.strip()) < 5:
+                await self._send_reply(
+                    message,
+                    format_ocr_failed() if extracted.image_seen else format_not_a_claim(),
+                )
                 return
-            await self._handle_mention_factcheck(message, claim_text)
+            await self._handle_mention_factcheck(message, extracted.text[:500])
             return
 
       
@@ -63,8 +69,15 @@ class Events(commands.Cog):
             return
 
         
+        extracted = await extract_message_text(
+            message, ocr_threshold=self.settings.OCR_Threshold
+        )
+        claim_text = extracted.text.strip()
+        if len(claim_text) < 5:
+            return
+
         result = self.detector.is_claim(
-            message.content, threshold=self.settings.Claim_Dectection_Threshold
+            claim_text, threshold=self.settings.Claim_Dectection_Threshold
         )
 
         if result.is_claim:
@@ -124,27 +137,10 @@ class Events(commands.Cog):
             return
 
       
-        claim_text = ""
-
-        if message.attachments:
-            for attachment in message.attachments:
-                if attachment.content_type and attachment.content_type.startswith("image/"):
-                    
-                    ocr_result = await extract_text_from_image(attachment.url)
-                    if ocr_result is None:
-                       
-                        await self._send_reply(message, format_ocr_failed())
-                        return
-                    if ocr_result.confidence < self.settings.OCR_Threshold:
-                      
-                        await self._send_reply(message, format_ocr_failed())
-                        return
-                    claim_text = ocr_result.text
-                    break
-
-      
-        if not claim_text:
-            claim_text = message.content
+        extracted = await extract_message_text(
+            message, ocr_threshold=self.settings.OCR_Threshold
+        )
+        claim_text = extracted.text.strip()
 
         if not claim_text or len(claim_text.strip()) < 5:
             await self._send_reply(message, format_not_a_claim())
