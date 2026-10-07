@@ -349,9 +349,17 @@ Evidence:
         parsed = json.loads(json_match.group())
         synthesis = AISynthesisResponse(**parsed)
 
-        sources = [s for s in synthesis.sources if is_well_formed_url(s)]
-        if not sources and evidence:
-            sources = [item for item in evidence if is_well_formed_url(item)][:3]
+        allowed_sources = {
+            item.strip()
+            for item in evidence
+            if is_well_formed_url(item.strip())
+        }
+        sources = [
+            s for s in synthesis.sources
+            if is_well_formed_url(s) and s in allowed_sources
+        ]
+        if not sources:
+            sources = list(allowed_sources)[:3]
 
         return Verdict(
             label=synthesis.verdict,
