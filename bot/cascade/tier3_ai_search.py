@@ -277,9 +277,17 @@ async def check_tier3(
         )
 
     
-    source_urls = synthesis.sources[:3]  
+    allowed_sources = {
+        s["url"].strip()
+        for s in snippets
+        if s.get("url") and re.match(r"^https?://\S+$", s["url"])
+    }
+    source_urls = [
+        url for url in synthesis.sources
+        if is_well_formed_url(url) and url in allowed_sources
+    ][:3]
     if not source_urls:
-        source_urls = [s["url"] for s in snippets[:3] if s.get("url") and re.match(r"^https?://\S+$", s["url"])]
+        source_urls = list(allowed_sources)[:3]
 
     logger.info("Tier 3 result: %s (from %d snippets)", synthesis.verdict, len(snippets))
 
