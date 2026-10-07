@@ -18,7 +18,7 @@ from bot.cascade.verdict import (
 )
 from bot.db import session as db_session
 from bot.detection.classifier import ClaimDetector
-from bot.ocr import extract_text_from_image
+from bot.message_text import extract_message_text
 
 logger = logging.getLogger(__name__)
 
@@ -54,32 +54,15 @@ class ContextMenuCog(commands.Cog):
         await interaction.response.defer(ephemeral=True)
 
        
-        claim_text = ""
-        if message.content and message.content.strip():
-            claim_text = message.content.strip()
-        elif message.attachments:
-      
-            for attachment in message.attachments:
-                if attachment.content_type and attachment.content_type.startswith("image/"):
-                    ocr_result = await extract_text_from_image(attachment.url)
-                    if ocr_result is None:
-                        await interaction.followup.send(
-                            embed=format_ocr_failed(),
-                            ephemeral=True,
-                        )
-                        return
-                    if ocr_result.confidence < self.settings.OCR_Threshold:
-                        await interaction.followup.send(
-                            embed=format_ocr_failed(),
-                            ephemeral=True,
-                        )
-                        return
-                    claim_text = ocr_result.text
-                    break
+        extracted = await extract_message_text(
+            message, ocr_threshold=self.settings.OCR_Threshold
+        )
+        claim_text = extracted.text.strip()
+
 
         if not claim_text or len(claim_text.strip()) < 5:
             await interaction.followup.send(
-                embed=format_not_a_claim(),
+                embed=format_ocr_failed() if extracted.image_seen else format_not_a_claim(),
                 ephemeral=True,
             )
             return

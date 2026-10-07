@@ -1,0 +1,13 @@
+.git
+.github
+.env
+.venv
+venv
+__pycache__
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+data/
+bot/detection/model.pkl
+.pytest_cache

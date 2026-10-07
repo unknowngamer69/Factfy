@@ -16,7 +16,7 @@ class Verdict:
     label: str 
     explanation: str
     sources: list[str] = field(default_factory=list)
-    tier: Literal["fact_check_db", "wikidata", "wikipedia", "ai_search"] = "ai_search"
+    tier: Literal["fact_check_db", "knowledge_evidence", "ai_search"] = "ai_search"
     confidence: float | None = None
     budget_exceeded: bool = False
 
@@ -37,9 +37,8 @@ _LABEL_EMOJI: dict[str, str] = {
 }
 
 _TIER_LABELS: dict[str, str] = {
-    "fact_check_db": "Google Fact Check",
-    "wikidata": "Wikidata",
-    "wikipedia": "Wikipedia",
+    "fact_check_db": "Google Fact Check + AI",
+    "knowledge_evidence": "knowledge sources + AI",
     "ai_search": "AI-synthesized search",
 }
 

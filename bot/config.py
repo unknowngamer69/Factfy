@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     App_ID: str = ""
 
    
-    Database_URL: str = "sqlite+aiosqlite:///./factcheckbot.db"
+    Database_URL: str = "sqlite+aiosqlite:///./data/factcheckbot.db"
 
 
     Factchecker: str = ""
