@@ -579,7 +579,7 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
 
     strong_support = top_score >= 0.8 and strong_title_match and not is_numeric_claim
 
-    label = "True" if strong_support else "Unverifiable"
+    label = "Unverifiable"
     if label == "True":
         explanation = f"Claim is supported by the Wikipedia article '{top_title}'."
 
