@@ -143,7 +143,7 @@ class Events(commands.Cog):
         claim_text = extracted.text.strip()
 
         if not claim_text or len(claim_text.strip()) < 5:
-            await self._send_reply(message, format_not_a_claim())
+            await self._send_reply(message, format_ocr_failed() if extracted.image_seen else format_not_a_claim())
             return
 
         
