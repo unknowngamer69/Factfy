@@ -557,7 +557,7 @@ async def _fetch_wikipedia_extracts(titles: list[str]) -> dict[str, str]:
     extracts: dict[str, str] = {}
     for page in pages.values():
         title = page.get("title", "")
-        extract = re.sub(r"\\s+", " ", page.get("extract", "")).strip()
+        extract = re.sub(r"\s+", " ", page.get("extract", "")).strip()
         if title and extract:
             extracts[title] = extract[:5000]
     return extracts
