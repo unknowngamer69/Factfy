@@ -135,7 +135,7 @@ async def run_cascade(
         logger.info("Tier 2 provided evidence; using AI to interpret it.")
         ai_result = await synthesize_verdict_from_evidence(
             claim_text,
-            tier2_result.evidence + tier2_result.sources,
+            [tier2_result.explanation] + tier2_result.sources,
             settings.HCAI,
             source_tier="knowledge_evidence",
         )
