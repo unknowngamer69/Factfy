@@ -618,27 +618,8 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
         + "\\n".join(evidence_parts)
     )
 
-    top_score, top_title, _ = scored_sources[0]
-    title_tokens = set(_normalize_search_text(top_title))
-    claim_tokens = set(_normalize_search_text(claim_text))
-    core_phrase = _extract_core_search_phrase(claim_text)
-    core_tokens = set(_normalize_search_text(core_phrase))
-
-    is_numeric_claim = _is_numeric_or_date_claim(claim_text)
-    strong_title_match = (
-        title_tokens
-        and (
-            title_tokens.issubset(claim_tokens)
-            or title_tokens.issubset(core_tokens)
-            or top_title.lower() in claim_text.lower()
-            or top_title.lower() in core_phrase.lower()
-        )
-    )
-
-    strong_support = top_score >= 0.8 and strong_title_match and not is_numeric_claim
-
     return Verdict(
-        label=label,
+        label="Unverifiable",
         explanation=explanation,
         sources=sources,
         tier="knowledge_evidence",
