@@ -614,8 +614,8 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
         return None
 
     explanation = (
-        "Wikipedia evidence retrieved for AI synthesis:\\n"
-        + "\\n".join(evidence_parts)
+        "Wikipedia evidence retrieved for AI synthesis:\n"
+        + "\n".join(evidence_parts)
     )
 
     return Verdict(
@@ -623,5 +623,5 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
         explanation=explanation,
         sources=sources,
         tier="knowledge_evidence",
-        confidence=0.65 if label == "True" else 0.5,
+        confidence=0.5,
     )
