@@ -368,7 +368,7 @@ Open `.env` and add your real credentials.
 ## 3A. Build Factfy
 
 ```bash
-docker compose up -d --build
+docker compose build
 ```
 ## 3B. Start Factfy
 ```bash
