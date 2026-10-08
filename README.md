@@ -372,7 +372,7 @@ docker compose up -d --build
 ```
 ## 3B. Start Factfy
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 The first build can take some time because Docker needs to install the Python dependencies and download the spaCy model.
