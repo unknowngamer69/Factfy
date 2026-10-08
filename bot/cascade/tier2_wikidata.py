@@ -522,6 +522,47 @@ async def _search_wikipedia_articles(search_text: str) -> list[tuple[float, str,
     return scored_sources
 
 
+async def _fetch_wikipedia_extracts(titles: list[str]) -> dict[str, str]:
+    """Fetch readable page extracts so Tier 2 passes actual evidence to the AI."""
+    if not titles:
+        return {}
+
+    params = {
+        "action": "query",
+        "prop": "extracts",
+        "explaintext": 1,
+        "exintro": 0,
+        "exchars": 5000,
+        "titles": "|".join(titles[:3]),
+        "format": "json",
+        "redirects": 1,
+    }
+    headers = {"User-Agent": "FactfyBot/1.0 (https://github.com/unknowngamer69/Factfy; contact: none)"}
+
+    try:
+        async with _wikidata_semaphore:
+            async with httpx.AsyncClient(timeout=15.0) as client:
+                resp = await client.get(
+                    "https://en.wikipedia.org/w/api.php",
+                    params=params,
+                    headers=headers,
+                )
+                resp.raise_for_status()
+                data = resp.json()
+    except (httpx.HTTPError, ValueError) as exc:
+        logger.warning("Wikipedia extract request failed: %s", exc)
+        return {}
+
+    pages = data.get("query", {}).get("pages", {})
+    extracts: dict[str, str] = {}
+    for page in pages.values():
+        title = page.get("title", "")
+        extract = re.sub(r"\s+", " ", page.get("extract", "")).strip()
+        if title and extract:
+            extracts[title] = extract[:5000]
+    return extracts
+
+
 async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
 
     search_url = "https://en.wikipedia.org/w/api.php"
@@ -558,35 +599,29 @@ async def _check_wikipedia_general(claim_text: str) -> Optional[Verdict]:
     top_sources = scored_sources[:3]
     sources = [url for _, _, url in top_sources]
     titles = [title for _, title, _ in top_sources]
-    explanation = f"Relevant Wikipedia articles found: {', '.join(titles)}."
 
-    top_score, top_title, _ = scored_sources[0]
-    title_tokens = set(_normalize_search_text(top_title))
-    claim_tokens = set(_normalize_search_text(claim_text))
-    core_phrase = _extract_core_search_phrase(claim_text)
-    core_tokens = set(_normalize_search_text(core_phrase))
+    # Search results only identify candidate pages. Fetch the actual page text so
+    # the downstream AI can reason over evidence instead of seeing bare URLs.
+    extracts = await _fetch_wikipedia_extracts(titles)
+    evidence_parts = []
+    for title, url in zip(titles, sources):
+        extract = extracts.get(title)
+        if extract:
+            evidence_parts.append(f"[{title}] {extract} (Source: {url})")
 
-    is_numeric_claim = _is_numeric_or_date_claim(claim_text)
-    strong_title_match = (
-        title_tokens
-        and (
-            title_tokens.issubset(claim_tokens)
-            or title_tokens.issubset(core_tokens)
-            or top_title.lower() in claim_text.lower()
-            or top_title.lower() in core_phrase.lower()
-        )
+    if not evidence_parts:
+        logger.debug("Wikipedia pages were found but no readable extracts were returned")
+        return None
+
+    explanation = (
+        "Wikipedia evidence retrieved for AI synthesis:\n"
+        + "\n".join(evidence_parts)
     )
 
-    strong_support = top_score >= 0.8 and strong_title_match and not is_numeric_claim
-
-    label = "Unverifiable"
-    if label == "True":
-        explanation = f"Claim is supported by the Wikipedia article '{top_title}'."
-
     return Verdict(
-        label=label,
+        label="Unverifiable",
         explanation=explanation,
         sources=sources,
         tier="knowledge_evidence",
-        confidence=0.65 if label == "True" else 0.5,
+        confidence=0.5,
     )
