@@ -365,10 +365,14 @@ Copy-Item .env.example .env
 
 Open `.env` and add your real credentials.
 
-## 3. Build and start Factfy
+## 3A. Build Factfy
 
 ```bash
 docker compose up -d --build
+```
+## 3B. Start Factfy
+```bash
+docker compose up
 ```
 
 The first build can take some time because Docker needs to install the Python dependencies and download the spaCy model.
