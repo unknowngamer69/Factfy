@@ -484,7 +484,7 @@ Do not use Python 3.14 with the current dependency versions unless you have upda
 
 Factfy uses Tesseract for OCR.
 
-Install a Windows build of Tesseract.
+Install a Windows build of Tesseract. Install it directly by clicking [here](https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe) or visiting its download page [here](https://github.com/tesseract-ocr/tesseract) and check under "[Releases Tab](https://github.com/tesseract-ocr/tesseract/releases)"
 
 After installing it, make sure the Tesseract executable is available in PATH.
 
